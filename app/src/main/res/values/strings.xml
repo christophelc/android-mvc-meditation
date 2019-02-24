@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Meditation</string>
+    <string nae="preference_file_key">meditationpPref.txt</string>
+    <string name="preference_ring">ring</string>
+    <string name="preference_duration">duration</string>
+
+    <string name="MeditationText">I Meditate everyday</string>
+    <string name="howto_text">How to meditate ?</string>
+    <string name="why_text">Why this application ?</string>
+    <string name="why_title_text">Why ?</string>
+    <string name="meditate_text">Start meditation</string>
+    <string name="start_text">Start</string>
+    <string name="greetings_text">I would like to thank you the following people for their free picture. Greetings to:
+        \n\nSamantha Hurley from burst.shopify.com
+        \nJaclyn Moy from unsplash.com
+        \nFancycrave from unsplash.com
+        \nLaura Olsen from unsplash.com
+    </string>
+    <string name="meditation_started">Waiting</string>
+    <string name="ring_select_text">Ring sound:</string>
+    <string name="ring_button_text">Ring test</string>
+    <string name="duration_text">Duration:</string>
+    <string name="start_text_button">Start</string>
+    <string name="fragment_welcome">Welcome</string>
+    <string name="fragment_greetings">About</string>
+    <string name="preferences_text_menu">Preferences</string>
+    <string name="preferences_choose_text">Select a duration and a ring alarm</string>
+
+    <string-array name="sounds_array">
+        <item>chime</item>
+        <item>graceful</item>
+        <item>oringzw465</item>
+    </string-array>
+
+    <string-array name="duration_array">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="walking_meditation_text">Time remaining:</string>
+    <string name="stop_text">Stop</string>
+    <string name="greetings_text_menu">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

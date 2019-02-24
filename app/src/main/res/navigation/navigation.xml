@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/welcomeFragment">
+
+    <fragment android:id="@+id/welcomeFragment"
+              android:name="cabinetcep.com.meditation.WelcomeFragment"
+              android:label="@string/fragment_welcome"
+              tools:layout="@layout/fragment_welcome">
+        <action android:id="@+id/action_welcomeFragment_to_walkingMeditationFragment"
+                app:destination="@id/walkingMeditationFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/walkingMeditationFragment"
+              android:name="cabinetcep.com.meditation.WalkingMeditationFragment"
+              android:label="@string/meditation_started"
+              tools:layout="@layout/fragment_walking_meditation"/>
+
+    <fragment android:id="@+id/preferencesFragment"
+              android:name="cabinetcep.com.meditation.PreferencesFragment"
+              android:label="@string/preferences_text_menu"
+              tools:layout="@layout/fragment_preferences"/>
+
+    <fragment android:id="@+id/greetingsFragment"
+              android:name="cabinetcep.com.meditation.GreetingsFragment"
+              android:label="@string/fragment_greetings"
+              tools:layout="@layout/fragment_greetings"/>
+    <fragment android:id="@+id/whyFragment" android:name="cabinetcep.com.meditation.WhyFragment"
+              android:label="@string/why_title_text"/>
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/preferences_text_menu"
+          android:id="@+id/preferencesFragment"/>
+
+    <item android:id="@+id/whyFragment"
+          android:title="@string/why_text"/>
+
+    <item android:id="@+id/greetingsFragment"
+          android:title="@string/howto_text"/>
+
+    <item android:id="@+id/walkingMeditationFragment"
+          android:title="@string/meditate_text"/>
+
+    <item android:id="@+id/greetingsFragment"
+          android:title="@string/fragment_greetings"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_info_black_24dp"/>
+
+</menu>
